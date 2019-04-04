@@ -32,7 +32,7 @@ Vue.prototype.Bmob = Bmob
 
 //定义成对象方便调用
 Vue.prototype.validater = validater
-
+Vue.prototype.apiAppid = '560d2f61da546eee0ea2b506ba572508'
 
 Vue.config.productionTip = false
 

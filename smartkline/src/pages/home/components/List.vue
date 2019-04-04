@@ -85,7 +85,7 @@ export default {
         getJpInfo () {
 
             let url = "https://api.shenjian.io"
-            this.$jsonp(url,{'appid':'560d2f61da546eee0ea2b506ba572508','codes':this.zixuanList}).then(json => {
+            this.$jsonp(url,{'appid':this.apiAppid,'codes':this.zixuanList}).then(json => {
                 console.log(json)
                 var errorcode = json.error_code
                 var data = json.data

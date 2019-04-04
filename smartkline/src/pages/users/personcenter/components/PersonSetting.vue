@@ -3,6 +3,7 @@
         <group>
             <cell title='退出登录' is-link @click.native="logout"></cell>
             <cell title='关于' is-link :link="{path:'/about'}"></cell>
+            <cell title='设置' is-link :link="{path:'/about'}"></cell>
         </group>
         <!-- <div class="list">
             <div class="btn-logout">

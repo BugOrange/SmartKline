@@ -7,7 +7,7 @@
             <p class="header-title">Orange</p>
         </div>
         <div class="rightcp">
-            <button class="rightbtn" @click="rightBtnAction">个人中心</button>
+            <button class="rightbtn" @click="rightBtnAction"></button>
         </div>
     </div>
 </template>
@@ -30,6 +30,7 @@ export default {
             // this.toast('hello')
             // return
             //获取用户当前信息
+            return
             let current = Bmob.User.current()
 
             if (!current) {

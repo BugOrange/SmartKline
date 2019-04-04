@@ -1,6 +1,6 @@
 <template>
     <div>
-        <common-header></common-header>
+        <x-header style="background-color:orange" :left-options="{showBack: false}">我的</x-header>
         <person-setting></person-setting>
         <tabbar>
             <tabbar-item link="/">
